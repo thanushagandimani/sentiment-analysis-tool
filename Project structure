@@ -1,0 +1,11 @@
+sentiment-analysis-tool/
+│
+├── data/
+│   └── Restaurant_Reviews.tsv       # Your dataset (input file)
+│
+├── src/
+│   ├── preprocess.py                 # Preprocessing script
+│   ├── train_model.py                # Model training script
+│   └── predict.py                    # Sentiment prediction script
+│
+└── requirements.txt                  # Required libraries
